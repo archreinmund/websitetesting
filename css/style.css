@@ -59,7 +59,7 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-	
+
 }
 
 .navbar-brand {
@@ -107,7 +107,7 @@ a:focus {
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
-	  border-radius: 0;	
+	  border-radius: 0;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
@@ -289,6 +289,16 @@ hr {
 	background: #575757;
 }
 
+.bg-img
+{
+	background: url(../img/bgmain.png) /*no-repeat top center;*/
+}
+
+.bg-none
+{
+
+}
+
 /* --- section color var --- */
 
 .text-light {
@@ -304,8 +314,8 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
-	background: url(../img/bg1.jpg) no-repeat top center;
+
+	background: url(../img/bgmain.png) no-repeat top center;
 }
 
 #intro.intro {
@@ -360,6 +370,12 @@ hr {
 	padding: 20px;
 }
 
+.boxed-dark {
+	background: #121212;
+  color: #FFF;
+	padding: 20px;
+}
+
 .team h5 {
 	margin-bottom: 10px;
 }
@@ -375,7 +391,7 @@ hr {
 .team-social {
 	margin-left: 0;
 	padding-left: 0;
-	
+
 }
 
 .team-social {
@@ -427,7 +443,7 @@ hr {
 
 .service-icon {
 	margin-bottom: 20px;
-}	
+}
 
 
 
@@ -521,7 +537,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 footer {
 	text-align: center;
 	padding: 50px 0 ;
-	
+
 }
 
 footer p {
@@ -532,11 +548,11 @@ footer p {
 Parallax
 ============================= */
 
-#parallax1{	
+#parallax1{
 	background-image: url(../img/parallax/1.jpg);
 }
 
-#parallax1:after {	
+#parallax1:after {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
 	content: "";
 	position: absolute;
@@ -549,12 +565,12 @@ Parallax
 }
 
 
-#parallax2{	
+#parallax2{
 	background-image: url(../img/parallax/2.jpg);
 
 }
 
-#parallax2:after  {	
+#parallax2:after  {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
 	content: "";
 	position: absolute;
@@ -640,7 +656,7 @@ Parallax
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -657,7 +673,7 @@ Parallax
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -690,7 +706,7 @@ Parallax
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
+  background-color: #333;
   border-color: #666;
 }
 
@@ -733,9 +749,9 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
     }
-	
+
     .intro {
         height: 100%;
         padding: 0;
@@ -744,7 +760,7 @@ Parallax
     .brand-heading {
         font-size: 100px;
     }
-	
+
 
     .intro-text {
         font-size: 25px;
@@ -753,16 +769,16 @@ Parallax
 
 }
 @media (max-width:768px) {
-	
+
 	.team.boxed-grey {
 		margin-bottom: 30px;
 	}
-	
+
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
 
-	
+
 }
 
 @media (max-width:480px) {
@@ -770,11 +786,11 @@ Parallax
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
 	}
-	
+
 	.navbar.navbar-custom.navbar-fixed-top {
 		margin-bottom: 30px;
 	}
-	
+
 	.tp-banner-container {
 		padding-top:40px;
 	}
@@ -788,5 +804,5 @@ Parallax
 		border-radius: 50%;
 		font-size: 20px;
 	}
-	
+
 }
