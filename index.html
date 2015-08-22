@@ -11,6 +11,8 @@
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/custom.css" rel="stylesheet" type="text/css">
+  <link href="css/slicebox.css" rel="stylesheet" type="text/css">
 
   <!-- Fonts -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -42,9 +44,9 @@
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#intro">Home</a></li>
-          <li><a href="#about">Team</a></li>
-          <li><a href="#awards">Awards</a></li>
           <li><a href="#media">Media</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#about">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         <!--
           <li class="dropdown">
@@ -73,12 +75,134 @@
       <h4>Help Li and An discover their true self in the world of Dissoance</h4>
     </div>
     <div class="page-scroll">
-      <a href="#about" class="btn btn-circle">
+      <a href="#media" class="btn btn-circle">
         <i class="fa fa-angle-double-down animated"></i>
       </a>
     </div>
   </section>
   <!-- /Section: intro -->
+
+
+
+
+
+  <!-- Section: media -->
+  <section id="media" class="home-section text-center bg-gray">
+
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Media</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrapper">
+
+        <ul id="sb-slider" class="sb-slider">
+          <li>
+            <img src="img/screenshots/screenshot1.png" alt="image1"/>
+            <div class="sb-description">
+              <h3>Selfless Philantropist</h3>
+            </div>
+          </li>
+          <li>
+            <img src="img/screenshots/screenshot2.png" alt="image2"/>
+          </li>
+          <li>
+            <img src="img/screenshots/screenshot3.png" alt="image1"/>
+          </li>
+          <li>
+            <img src="img/screenshots/screenshot4.png" alt="image1"/>
+          </li>
+        </ul>
+
+        <div id="shadow" class="shadow"></div>
+
+        <div id="nav-arrows" class="nav-arrows">
+          <a href="#">Next</a>
+          <a href="#">Previous</a>
+        </div>
+
+        <div id="nav-dots" class="nav-dots">
+          <span class="nav-dot-current"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+      </div><!-- /wrapper -->
+    </div>
+  </section>
+  <!-- /Section: Media -->
+
+
+    <!-- Section: awards -->
+    <section id="awards" class="home-section text-center bg-gray">
+
+      <div class="heading-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="wow bounceInDown" data-wow-delay="0.4s">
+                <div class="section-heading">
+                  <h2>Awards</h2>
+                  <i class="fa fa-2x fa-angle-down"></i>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-5">
+            <hr class="marginbot-50">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3 col-md-6">
+            <div class="wow fadeInLeft" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <img src="img/awards/OutofIndexAward_Gray.png" alt="" />
+                </div>
+                <div class="service-desc">
+                  <h5>Out of Index</h5>
+                  <p>"Official Selection" - Out of Index: Experimental Game Festival, 2015</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-6">
+            <div class="wow fadeInRight" data-wow-delay="0.2s">
+              <div class="service-box">
+                <div class="service-icon">
+                  <img src="img/awards/indie_prize.png" alt="" />
+                </div>
+                <div class="service-desc">
+                  <h5>Indie Prize</h5>
+                  <p>Casual Connect San Fransico Indie Showcase - Most Innovative Game</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Section: awards -->
 
   <!-- Section: about -->
   <section id="about" class="home-section text-center">
@@ -88,7 +212,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <h2>About us</h2>
+                <h2>Team</h2>
                 <i class="fa fa-2x fa-angle-down"></i>
 
               </div>
@@ -271,147 +395,6 @@
   <!-- /Section: about -->
 
 
-  <!-- Section: services -->
-  <section id="awards" class="home-section text-center bg-gray">
-
-    <div class="heading-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="wow bounceInDown" data-wow-delay="0.4s">
-              <div class="section-heading">
-                <h2>Awards</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-5">
-          <hr class="marginbot-50">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3 col-md-6">
-          <div class="wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src="img/awards/OutofIndexAward_Gray.png" alt="" />
-              </div>
-              <div class="service-desc">
-                <h5>Out of Index</h5>
-                <p>"Official Selection" - Out of Index: Experimental Game Festival, 2015</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-md-6">
-          <div class="wow fadeInRight" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src="img/awards/indie_prize.png" alt="" />
-              </div>
-              <div class="service-desc">
-                <h5>Indie Prize</h5>
-                <p>Casual Connect San Fransico Indie Showcase - Most Innovative Game</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /Section: awards -->
-
-  <!-- Section: media -->
-  <section id="media" class="home-section text-center bg-gray">
-
-    <div class="heading-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="wow bounceInDown" data-wow-delay="0.4s">
-              <div class="section-heading">
-                <h2>Media</h2>
-                <i class="fa fa-2x fa-angle-down"></i>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-5">
-          <hr class="marginbot-50">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3 col-md-3">
-          <div class="wow fadeInLeft" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src="img/icons/service-icon-1.png" alt="" />
-              </div>
-              <div class="service-desc">
-                <h5>Print</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-md-3">
-          <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src="img/icons/service-icon-2.png" alt="" />
-              </div>
-              <div class="service-desc">
-                <h5>Web Design</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-md-3">
-          <div class="wow fadeInUp" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src="img/icons/service-icon-3.png" alt="" />
-              </div>
-              <div class="service-desc">
-                <h5>Photography</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-md-3">
-          <div class="wow fadeInRight" data-wow-delay="0.2s">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src="img/icons/service-icon-4.png" alt="" />
-              </div>
-              <div class="service-desc">
-                <h5>Cloud System</h5>
-                <p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- /Section: Media -->
-
-
-
-
   <!-- Section: contact -->
   <section id="contact" class="home-section text-center">
     <div class="heading-contact">
@@ -463,7 +446,7 @@
                     <select id="subject" name="subject" class="form-control" required="required">
                       <option value="na" selected="">Choose One:</option>
                       <option value="press">Press</option>
-                      <option value="other">other</option>
+                      <option value="other">Other</option>
                     </select>
                   </div>
                 </div>
@@ -485,15 +468,6 @@
 
         <div class="col-lg-4">
           <div class="widget-contact">
-            <h5>Main Office</h5>
-
-            <address>
-              <strong>Squas Design, Inc.</strong>
-              <br> Tower 795 Folsom Ave, Beautiful Suite 600
-              <br> San Francisco, CA 94107
-              <br>
-              <abbr title="Phone">P:</abbr> (123) 456-7890
-            </address>
 
             <address>
               <strong>Email</strong>
@@ -501,7 +475,7 @@
               <a href="mailto:#">mylizee@gmail.com</a>
             </address>
             <address>
-              <strong>We're on social networks</strong>
+              <strong>Social networks</strong>
               <br>
               <ul class="company-social">
                 <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -543,6 +517,86 @@
   <script src="js/wow.min.js"></script>
   <!-- Custom Theme JavaScript -->
   <script src="js/custom.js"></script>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+  <script type="text/javascript">
+    $(function() {
+
+      var Page = (function() {
+
+        var $navArrows = $( '#nav-arrows' ).hide(),
+          $navDots = $( '#nav-dots' ).hide(),
+          $nav = $navDots.children( 'span' ),
+          $shadow = $( '#shadow' ).hide(),
+          slicebox = $( '#sb-slider' ).slicebox( {
+            onReady : function() {
+
+              $navArrows.show();
+              $navDots.show();
+              $shadow.show();
+
+            },
+            onBeforeChange : function( pos ) {
+
+              $nav.removeClass( 'nav-dot-current' );
+              $nav.eq( pos ).addClass( 'nav-dot-current' );
+
+            }
+          } ),
+
+          init = function() {
+
+            initEvents();
+
+          },
+          initEvents = function() {
+
+            // add navigation events
+            $navArrows.children( ':first' ).on( 'click', function() {
+
+              slicebox.next();
+              return false;
+
+            } );
+
+            $navArrows.children( ':last' ).on( 'click', function() {
+
+              slicebox.previous();
+              return false;
+
+            } );
+
+            $nav.each( function( i ) {
+
+              $( this ).on( 'click', function( event ) {
+
+                var $dot = $( this );
+
+                if( !slicebox.isActive() ) {
+
+                  $nav.removeClass( 'nav-dot-current' );
+                  $dot.addClass( 'nav-dot-current' );
+
+                }
+
+                slicebox.jump( i + 1 );
+                return false;
+
+              } );
+
+            } );
+
+          };
+
+          return { init : init };
+
+      })();
+
+      Page.init();
+
+    });
+  </script>
 
 </body>
 
